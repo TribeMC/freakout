@@ -1,0 +1,8 @@
+name: Fre4k0ut
+main: v3Freak.Main
+version: 1.0
+description: FreakOut Survival Plugin
+author: V3lop5
+commands:
+  item:
+    description: ItemOutPutCMD

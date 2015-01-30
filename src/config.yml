@@ -1,0 +1,60 @@
+TPonDamage:
+  enabled: true
+  # [Radius(int)], [SaveTeleport(boolean)]
+  values: 3, true
+RandomFall:
+  enabled: true
+  # [maxFallDistance(int)]
+  values: 15
+BlockPlace:
+  enabled: true
+  # [VerboteneBlöcke(TypeID; Aufzählung";")], [JederWievielteBlock soll vertauscht werden(int)], [Changes(TypeIDFrom-TypeIDTo; Aufzählung";")]
+  values: 7;1, 5, 2-3;4-9;9-50
+BlockBreak:
+  enabled: true
+  # [VerboteneBlöcke(TypeID; Aufzählung";")], [JederWievielteBlock soll anders gedroppt werden(int)], [Changes(TypeIDFrom-TypeIDTo; Aufzählung";")], [MaxXPDrop(int)]
+  values: 7;1, 5, 2-3;4-9;9-50, 500
+CommandManagement:
+  enabled: true
+  values: true, pl;plugins;bukkit:plugins, true
+SignChange:
+  enabled: true
+  values: true, 6
+EntityBurn:
+  enabled: true
+  values: true, 5, 10, true, WEAKNESS, 5, 20
+BettEnter:
+  enabled: true
+  values: true, 3, 5, true, 3
+BettLeave:
+  enabled: true
+  values: true, 20, 2
+Join:
+  enabled: true
+    # change joinmsg, brodcast
+  values: true, 8
+Quit:
+  enabled: true
+    # change leavemsg, brodcast
+  values: true, 8, 500
+Kick:
+  enabled: true
+  # change kickmsg, brodcast
+  values: true, 8
+Kill:
+  enabled: true
+  #Dropanteil an XP, Prozent, Allgemein KillXP, lvl, brodcast
+  values: true, 5, true, 3, false
+Enchant:
+  enabled: true
+  #DenyEnchants
+  values: true
+Time:
+  enabled: true
+  #Time in Sekunden
+  values: 30
+Weather:
+  enabled: true
+  #Time in Sekunden
+  values: 120
+Recipes:

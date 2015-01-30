@@ -1,0 +1,6 @@
+prefix: &bFreak&cOut
+disabledCommand: &cDieser Command wurde disabled!
+unknownCMD: &cDieser Command ist nicht bekannt!
+join: &8[&a&l+&8] &3%PLAYER
+quit: &8[&c&l-&8] &3%PLAYER
+kick: &8[&c&l-&8] &3%PLAYER
